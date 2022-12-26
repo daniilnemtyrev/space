@@ -1,2 +1,2 @@
-export { Main } from './main';
+export { Landing } from './landing';
 export { ErrorPage } from './error-page';
