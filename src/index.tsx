@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { ErrorPage, Landing } from './routes';
+import './i18n';
 
 const router = createBrowserRouter([
     {

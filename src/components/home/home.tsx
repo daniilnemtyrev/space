@@ -1,10 +1,13 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
 
 export const Home = () => {
+    const { t } = useTranslation();
+
     return (
         <Wrapper>
-            <Title>FROM DUSK TO DAWN</Title>
+            <Title>{t('home.title')}</Title>
         </Wrapper>
 
     );
